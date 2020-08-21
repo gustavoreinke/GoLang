@@ -32,10 +32,10 @@ func main() {
 	} else if bmi < 30 {
 		fmt.Println(name, ",", "Careful. You are overrweight.")
 	} else if bmi < 35 {
-		fmt.Println(name, ",", "Careful. You are with obesity grade 1.", name)
+		fmt.Println(name, ",", "Careful. You are with obesity grade 1.")
 	} else if bmi < 40 {
-		fmt.Println(name, ",", "Careful. you are with obesity grade 2.", name)
+		fmt.Println(name, ",", "Careful. you are with obesity grade 2.")
 	} else {
-		fmt.Println(name, ",", "WARNING!! You are with obesity grade 3.", name)
+		fmt.Println(name, ",", "WARNING!! You are with obesity grade 3.")
 	}
 }
